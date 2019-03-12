@@ -6,7 +6,7 @@
 2) Add method, getTokensLeft, to report how many tokens are left. (30 points)
 3) Graduate Students question: Add the needed functionality to not allow more than 1 purchase per account. (40 points)
 
-#Transactions
+# Transactions performed
   Now perform the following transactions:
   1) Try to buy tokens with 2.5 ether (10 points)
   2) Buy tokens with 15 ether (10 points)
