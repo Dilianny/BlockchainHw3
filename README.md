@@ -1,4 +1,3 @@
-# BlockchainHw30.
 # Instructions
 
 # Implementations
