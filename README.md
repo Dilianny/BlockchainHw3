@@ -1,5 +1,24 @@
 # Instructions
-
+Make sure you have truffle version v0.2.24
+  1.Download zip file to your desktop folder and unzip it.
+	2.Then open command prompt for Window users
+	3.Execute command "cd Desktop"
+  4.Execute command cd [ Name of Folder]
+  5.Then execute the following commands inorder 
+         a) truffle compile 
+         b) truffle develop 
+         c) migrate --reset 
+         d) ExampleToken.deployed("[token name]", "symbol", [decimal point]).then((t) => {token = t;}) 
+         For example: ExampleToken.deployed("Example Token", "EXM", 18).then((t) => {token = t;}) 
+         e) ExampleTokenCrowdsale.deployed([rate], [wallet], [ERC20 token] , new web3.BigNumber(web3.toWei([cap], 'ether'))).then((t) => {sale = t;}) 
+         For Example: ExampleTokenCrowdsale.deployed(500, web3.eth.accounts[0], token.address , new web3.BigNumber(web3.toWei(200, 'ether'))).then((t) => {sale = t;}) 
+         f)token.transferOwnership(sale.address) 
+          
+	6.Once commands are executed successfully you perform transactions as follows: 
+  sale.buyTokens(web3.eth.accounts[1], {value : new web3.BigNumber(web3.toWei([amount of ether], 'ether')) , from : web3.eth.accounts[1]});
+  For example: sale.buyTokens(web3.eth.accounts[1], {value : new web3.BigNumber(web3.toWei(2, 'ether')) , from : web3.eth.accounts[1]});
+  To buy tokens with 2 ethers.
+  
 # Implementations
 1) Change the minimum contribution to 5 Ether. (20 points)
 2) Add method, getTokensLeft, to report how many tokens are left. (30 points)
