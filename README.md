@@ -9,9 +9,9 @@
          b) truffle develop 
          c) migrate --reset 
          d) ExampleToken.deployed("[token name]", "symbol", [decimal point]).then((t) => {token = t;}) 
-         For example: ExampleToken.deployed("Example Token", "EXM", 18).then((t) => {token = t;}) 
+         For example: ExampleToken.deployed("CSC4980 Token", "GSU", 18).then((t) => {token = t;}) 
          e) ExampleTokenCrowdsale.deployed([rate], [wallet], [ERC20 token] , new web3.BigNumber(web3.toWei([cap], 'ether'))).then((t) => {sale = t;}) 
-         For Example: ExampleTokenCrowdsale.deployed(500, web3.eth.accounts[0], token.address , new web3.BigNumber(web3.toWei(200, 'ether'))).then((t) => {sale = t;}) 
+         For Example: ExampleTokenCrowdsale.deployed(450, web3.eth.accounts[0], token.address , new web3.BigNumber(web3.toWei(150, 'ether'))).then((t) => {sale = t;}) 
          f)token.transferOwnership(sale.address) 
           
 	6.Once commands are executed successfully you perform transactions as follows: 
