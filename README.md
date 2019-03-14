@@ -28,8 +28,9 @@
 # Transactions performed
  	 Now perform the following transactions:
  	1) Try to buy tokens with 2.5 ether (10 points)
-  ![image](https://github.com/Dilianny/BlockchainHw3/blob/master/BChw3%20images/Transaction%20fail.PNG)
+  	Transaction fails when you try to buy tokens with 2.5 ether
   	2) Buy tokens with 15 ether (10 points)
+	Transaction is successful when buying tokens with 15 ether
   	3) Return how many tokens are left (10 points)
   	Graduate Students 4): Buy tokens (again) with 25 Ether (10 points)
 
