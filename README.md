@@ -21,6 +21,7 @@
   
 # Implementations
 1) Change the minimum contribution to 5 Ether. (20 points)
+https://github.com/Dilianny/BlockchainHw3/blob/master/BChw3%20images/Changes%201.PNG
 2) Add method, getTokensLeft, to report how many tokens are left. (30 points)
 3) Graduate Students question: Add the needed functionality to not allow more than 1 purchase per account. (40 points)
 
