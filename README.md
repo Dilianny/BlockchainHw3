@@ -1,5 +1,5 @@
 # Instructions
-	Make sure you have truffle version v0.2.24
+	Make sure you have truffle version v0.2.24, openzeppelin 1.10.0 and Web3 0.20.7 
  	1.Download zip file to your desktop folder and unzip it.
 	2.Then open command prompt for Window users
 	3.Execute command "cd Desktop"
