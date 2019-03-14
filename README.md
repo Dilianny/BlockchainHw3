@@ -28,9 +28,11 @@
 # Transactions performed
  	 Now perform the following transactions:
  	1) Try to buy tokens with 2.5 ether (10 points)
+	 sale.buyTokens(web3.eth.accounts[1], {value : new web3.BigNumber(web3.toWei(2.5, 'ether')) , from : web3.eth.accounts[1]});
   	Transaction fails when you try to buy tokens with 2.5 ether
 	
   	2) Buy tokens with 15 ether (10 points)
+	 sale.buyTokens(web3.eth.accounts[1], {value : new web3.BigNumber(web3.toWei(15, 'ether')) , from : web3.eth.accounts[1]});
 	Transaction is successful when buying tokens with 15 ether
 	
   	3) Return how many tokens are left (10 points)
